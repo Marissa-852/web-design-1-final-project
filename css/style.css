@@ -1,0 +1,14 @@
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+header > p:first-of-type {
+    align-items: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+
+}
