@@ -165,7 +165,7 @@ nav a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 150px 0 100px 0;
-    margin: 8px;
+    
     
 }
 
@@ -174,10 +174,5 @@ nav a {
     color:#fff;
 }
 
-.qheader {
-    display: grid;
-    
-    justify-content: center;
-    align-content: center;
-}
+
 
