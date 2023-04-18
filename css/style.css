@@ -135,18 +135,28 @@ nav a {
 }
 
 .work {
+    align-content: center;
     text-align: center;
     margin: 20px;
-   
+    padding: 10px 0 10px 0;
 }
 
 .header4 {
     font-size: x-large;
+    align-content: center;
 }
 
 .wrapper {
-  
+    display: flex;
+    flex-wrap: wrap;
     background-color: #fff;
-    padding: 1fr 1fr 1fr 1fr;
+    padding: 10px 0 10px 0;
 }
 
+.portfolioimg {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 150px 0;
+}
