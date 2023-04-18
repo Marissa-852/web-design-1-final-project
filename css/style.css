@@ -174,5 +174,15 @@ nav a {
     color:#fff;
 }
 
+.contact {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 0 150px 0;
+    background-color:#fff;
+}
 
-
+.social {
+    max-width: 3%;
+}
