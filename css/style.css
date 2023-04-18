@@ -162,13 +162,22 @@ nav a {
 }
 
 .quotes {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 150px 0 100px 0;
-    text-align: center;
+    margin: 8px;
+    
 }
 
 .quotes {
     background-color: #000;
     color:#fff;
 }
+
+.qheader {
+    display: grid;
+    
+    justify-content: center;
+    align-content: center;
+}
+
