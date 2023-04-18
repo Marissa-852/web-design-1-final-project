@@ -49,7 +49,7 @@ nav a {
 
 .text-container {
     margin: 30px;
-    
+
 }
 
 .casual {
@@ -75,16 +75,43 @@ nav a {
    
 }
 
+.article1 a {
+    background-color: #000;
+    color:#fff;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+}
+
 .article2 {
     background-color: #fff;
     border: 2px solid #fff;
     padding: 2px 2px 2px 2px;
 }
 
+.article2 a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+}
+
 .article3 {
     background-color: #fff;
     border: 2px solid #fff;
     padding: 2px 2px 2px 2px;
+}
+
+.article3 a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
 }
 
  .article1 a {
