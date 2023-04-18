@@ -1,14 +1,79 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+font-family: Roboto;
+background-color: whitesmoke;
+box-sizing: border-box;
+display: grid;
+max-width: 1280px;
+
+}
+
 header {
+    padding: 5px 5px 5px 5px;
     background-color: #000;
     color: #fff;
 }
 
-header > p:first-of-type {
-    align-items: space-between;
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-content: space-around;
 }
 
-nav ul li {
+nav ul li  {
     list-style: none;
-    display: inline;
+    font-size: 1em;
+    display: inline-block;
+    align-items: space-evenly;
+}
 
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: xx-large;
+    justify-content: space-evenly;
+}
+
+
+
+
+.services {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 6rem;
+    justify-content: center;
+   
+}
+
+
+.article1 {
+   background-color: #fff;
+   border: 2px solid #fff;
+   padding: 2px 2px 2px 2px;
+   
+}
+
+.article2 {
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 2px 2px 2px 2px;
+}
+
+.article3 {
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 2px 2px 2px 2px;
+}
+
+ .article1 a {
+    background-color: #000;
+}
+.header3 {
+    text-align: center;
 }
