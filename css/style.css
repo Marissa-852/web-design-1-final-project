@@ -162,29 +162,47 @@ nav a {
 }
 
 .quotes {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 150px 0 100px 0;
-    
-    
-}
-
-.quotes {
     background-color: #000;
     color:#fff;
+    padding: 100px 0 100px 0;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quote1 {
+    width: 500px;
+}
+
+.quote2 {
+    width: 500px;
 }
 
 .contact {
     display:flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     padding: 100px 0 150px 0;
     background-color:#fff;
 }
+.contact {
+    text-align: center;
+    font-size: x-large;
+}
 
 .social {
-    max-width: 3%;
+    max-width: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    justify-items: center;
+    
 }
 
 footer {
