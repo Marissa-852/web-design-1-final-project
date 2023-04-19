@@ -8,7 +8,6 @@ background-color: whitesmoke;
 box-sizing: border-box;
 display: grid;
 max-width: 1280px;
-
 }
 
 header {
@@ -16,7 +15,6 @@ header {
     background-color: #000;
     color: #fff;
 }
-
 
 ul {
     display: flex;
@@ -30,7 +28,7 @@ nav ul li  {
     list-style: none;
     font-size: 1em;
     display: inline-block;
-    align-items: space-evenly;
+    justify-items: space-evenly;
 }
 
 nav a {
@@ -49,15 +47,12 @@ nav a {
 
 .text-container {
     margin: 30px;
-
 }
 
 .casual {
     float: right;
     width: 30%;
 }
-
-
 
 .services {
     display: grid;
@@ -81,8 +76,7 @@ nav a {
    background-color: #fff;
    border: 2px solid #fff;
    padding: 2px 2px 2px 2px;
-   border-radius: .5em;
-   
+   border-radius: .5em; 
 }
 
 .article1 a {
@@ -143,7 +137,7 @@ nav a {
 
 .header4 {
     font-size: x-large;
-    align-content: center;
+    text-align: center;
 }
 
 .wrapper {
@@ -186,23 +180,21 @@ nav a {
 .contact {
     display:flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    text-align: center;
     padding: 100px 0 150px 0;
     background-color:#fff;
 }
-.contact {
-    text-align: center;
-    font-size: x-large;
-}
 
 .social {
-    max-width: 10%;
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    justify-items: center;
-    
+    display: flex;
+    align-content: center;
+    gap: 10px
+}
+
+.logo {
+    width: 5%;
+    justify-content: center;
+    align-content: center;
 }
 
 footer {
