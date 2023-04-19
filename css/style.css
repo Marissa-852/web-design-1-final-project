@@ -197,14 +197,13 @@ nav a:focus {
 
 .social {
     display: flex;
+    justify-content: center;
     align-content: center;
     gap: 10px
 }
 
 .logo {
     width: 5%;
-    justify-content: center;
-    align-content: center;
 }
 #contact {
     padding: 70px 70px 70px 70px;
