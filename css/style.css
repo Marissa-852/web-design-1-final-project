@@ -206,6 +206,9 @@ nav a:focus {
     justify-content: center;
     align-content: center;
 }
+#contact {
+    padding: 70px 70px 70px 70px;
+}
 
 footer {
     background-color: #000;
